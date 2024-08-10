@@ -1,0 +1,39 @@
+.registration_h1{
+        font-family: "Roboto Mono", monospace;
+}
+.registration_top{
+   font-family: "Roboto Mono", monospace;  
+   position:fixed;
+   padding-top:20px;
+   font-size:bold;
+   font-weight:700;
+}
+.registration_p1{
+    font-family: "Roboto Mono", monospace;
+    color:rgb(93, 90, 90);
+}
+/* .combination_three{
+    font-family: "Roboto Mono", monospace;
+    border-radius:8px;
+    border-radius:1px solid black;
+    background-color:red;
+} */
+.combination_three:hover{
+    border-color:rgb(213, 124, 139);
+    cursor:pointer;
+}
+.registration_p3{
+    font-family: "Roboto Mono", monospace;
+    color:black;
+}
+.facebook{
+       font-family: "Roboto Mono", monospace;
+    border-radius:8px;
+    border:3px solid black;
+    /* background-color:red; */
+    height:110px;
+    width:110px;
+    /* background:yellow; */
+
+}
+

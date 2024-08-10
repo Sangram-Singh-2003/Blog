@@ -1,0 +1,262 @@
+/* write comments on its line work
+.top{
+    height:100vh;
+    width:100%;
+   background-color: rgb(9, 13, 31); 
+}
+.topnavbar {
+  position: fixed;
+  margin:0;
+  font-family: "Roboto Mono", monospace;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(9, 13, 31);
+  color: white;
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+ 
+}
+.topnavbaritem-list{
+    display:flex;
+    justify-content:space-evenly;
+    gap:20%;
+    list-style:none;
+    margin:3% 20% 0% 10%;
+}
+.line{
+color:white;
+padding-top:130px;
+}
+.hrline{
+    border: 1px solid white;
+    width:75%;
+    margin-left:15%;
+   
+}
+.the-blog{
+    font-size:10rem;
+    color:white;
+    font:bold;
+     font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+ 
+} */
+
+/* Styles for the top container */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  
+}
+.top {
+    height: 3000px; /* Set the height to 100% of the viewport height */
+    width: 100%; /* Set the width to 100% */
+    background-color: rgb(9, 13, 31); /* Set the background color */
+    /* position:fixed; */
+    /* margin-right:100px; */
+}
+
+
+/* Styles for the top navbar */
+.topnavbar {
+     position: fixed;
+    margin: 0; /* Remove default margin */
+    font-family: "Roboto Mono", monospace; /* Set the font family */
+    height: 120px; /* Set the height of the navbar */
+    width: 100%; /* Set the width of the navbar */
+    background-color: rgb(9, 13, 31); /* Set the background color */
+    color: white; /* Set the text color */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-around; /* Space out the navbar items */
+    text-align: center; /* Center-align the text */
+}
+
+
+
+/* Styles for the list of navbar items */
+.topnavbaritem-list {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-evenly; /* Evenly space out the list items */
+    gap: 15%; /* Add space between list items */
+    list-style: none; /* Remove the default list style */
+    margin: 3% 8.5% 0% 1.2%; /* Add margins around the list */
+
+}
+
+
+@media (max-width:1000px){
+    .topnavbar{
+        margin-right:30%;
+    }
+    .lists{
+        margin-left:5%;
+    }
+    .listss{
+        margin-left:10%;
+    }
+}
+
+/* Styles for the line container */
+.line {
+    color: white; /* Set the text color */
+    padding-top: 130px; 
+}
+
+/* Styles for the horizontal rule */
+.hrline {
+    border: 1px solid white; /* Set the border style and color */
+    width: 75%; /* Set the width */
+    margin-left: 15%; /* Center the horizontal rule */
+    margin-top: 0.5rem; /* Add a small top margin */
+    margin-bottom: 0.5rem; /* Add a small bottom margin */
+   
+}
+.hrl1{
+    margin-top:110px;
+}
+
+/* Styles for the "THE BLOG" text */
+.the-blog {
+    /* position:absolut; */
+    font-size: 10rem; /* Set the font size */
+    color: white; /* Set the text color */
+    font: bold;
+    height:100px; /* Set the font weight */
+    font-family: "Poppins", sans-serif; /* Set the font family */
+    font-weight: 700; /* Set the font weight */
+    font-style: normal; /* Set the font style */
+    margin-top: 0; /* Remove top margin */
+    margin-left: 25%;
+    margin-top: -45px;
+    margin-bottom :-10px;
+    
+}
+@media (max-width:1000px){
+    .the-blog{
+        padding-top:4%;
+        font-size: 4rem;
+        margin-top:5px;
+        margin-bottom:-20%;
+        margin-left:15%;
+        }
+        .span-the{
+            padding-left:20px;
+        }
+}
+.recent_p{
+    margin-left:15%;
+    margin-top:4%;
+    color:white;
+    font-family: "Roboto Mono", monospace;
+}
+.main{
+    color:white;
+    margin-top:2%;
+    margin-left:15%;
+    /* position:static; */
+}
+.blog_post{
+    color:white;
+}
+.image_blog{
+    width:35%;
+    height:30%;
+    
+}
+.image_blog1{
+    height: 80%;
+    width:80%;
+}
+.p_date{
+    padding-top:1%;
+    color:rgb(105, 65, 198)
+}
+.p_date1{
+    padding-top:1%;
+    font-family: "Roboto Mono", monospace;
+  font-size:1.6rem;
+}
+.p_date2{
+    padding-top:1%;
+    font-family: "Roboto Mono", monospace;
+  font-size:1rem;
+  color:rgb(65, 65, 86);
+  
+}
+
+
+.blog_button{
+    /* background-color:#fff;  */
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+    padding-top:1%;
+    color:black;
+}
+.btn{
+    border:1px solid black;
+    padding-left:15px;
+    padding-right:12px;
+    padding-top:5px;
+    padding-bottom:5px;
+
+    border-radius:18px;
+    margin-right:0.2%;
+    margin-top:2%;
+    background:white;
+    
+}
+.btn1{
+    color:red;
+}
+.btn2{
+color:purple;
+}
+.flexSB{
+    display:flex;
+    justify-content:space-between;
+  
+}
+.blog_post1 {
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: transform 1s ease-out, opacity 2s ease-out;
+}
+
+.blog_post1.animate {
+  opacity: 1;
+  transform: translateX(0px);
+}
+.blog_post12{
+    display:flex;
+   margin-top:2%;
+    gap:5%;
+    padding-top:3%;
+}
+.blog_post13{
+    margin-top:5%;
+    display:flex;
+     gap:5%;
+    padding-top:3%;
+}
+.p_date12{
+    color:white;
+    
+    font-size:1.2rem
+}
+.p_date22{
+    font-size:0.7rem
+}
+li{
+    color:white;
+
+}
+li:hover{
+    color:red;
+}
+
+

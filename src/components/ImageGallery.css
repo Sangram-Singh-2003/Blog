@@ -1,0 +1,53 @@
+/* .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} */
+.second_blog{
+    margin-top:5%;
+    margin-left:15%;
+}
+.gallery-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.image_blog{
+    width:35%;
+    height:30%;
+    
+}
+.image_blog1{
+    height: 80%;
+    width:80%;
+}
+/*  */
+
+/* .second_blog{
+    background-color:rgb(9, 13, 31);
+} */
+.imagepart{
+    width: 30%;
+    height: 20%;
+}
+.modal-image {
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
